@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Toggle from './ToggleRPC';
+import Portal from './Portal';
 
 const App = () => (
   <div className="App">
@@ -14,6 +15,9 @@ const App = () => (
         </Fragment>
       )}
     </Toggle>
+    <Portal>
+      <h1>I'm a portal </h1>{' '}
+    </Portal>
   </div>
 );
 
