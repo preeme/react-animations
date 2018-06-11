@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Toggle from './ToggleRPC';
 import Portal from './Portal';
 import Modal from './Modal';
+import './App.css';
 
 const App = () => (
   <div className="App">
