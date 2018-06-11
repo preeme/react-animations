@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Toggle from './ToggleRPC';
 
 const App = () => (
@@ -8,10 +8,10 @@ const App = () => (
     </header>
     <Toggle>
       {({ on, toggle }) => (
-        <div>
+        <Fragment>
           {on && <h1> Show Me </h1>}
           <button onClick={toggle}>Show / Hide</button>
-        </div>
+        </Fragment>
       )}
     </Toggle>
   </div>
