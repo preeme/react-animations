@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react';
-import Toggle from './ToggleRPC';
-import Portal from './Portal';
-import Modal from './Modal';
+import { Toggle, Portal, Modal } from './Utilities';
 import './App.css';
 
 const App = () => (

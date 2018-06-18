@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import Portal from './Portal';
-import Icon from './Utilities/icon';
+import Icon from './Icon';
 
 export default class Modal extends PureComponent {
   render() {
