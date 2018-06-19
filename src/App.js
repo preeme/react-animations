@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import { Toggle, Portal, Modal } from './Utilities';
+import { Toggle } from 'Utilities';
+import { Modal } from 'Elements';
 import './App.css';
 
 const App = () => (
@@ -18,9 +19,6 @@ const App = () => (
         </Fragment>
       )}
     </Toggle>
-    <Portal>
-      <h1>I'm a portal </h1>
-    </Portal>
   </div>
 );
 
