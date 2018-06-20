@@ -42,7 +42,8 @@ const ModalCard = Card.extend`
 `;
 
 const CloseButton = styled.button`
-  ${absolute({ y: 'top', x: 'right' })} border: none;
+  ${absolute({ y: 'top', x: 'right' })};
+  border: none;
   background: transparent;
   padding: 10px;
 `;

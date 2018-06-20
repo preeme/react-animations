@@ -1,5 +1,5 @@
 export const absolute = ({ y = 'top', x = 'left' }) => `
-  position: 'absolute';
+  position: absolute;
   ${y}: 0;
   ${x}: 0;
 `;
