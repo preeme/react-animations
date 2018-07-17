@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
-import { Transition, animated } from 'react-spring';
+import { Transition, animated, config } from 'react-spring';
 import { Portal, absolute } from 'Utilities';
 import Icon from './Icon';
 import { Card } from './Cards';
@@ -12,10 +12,7 @@ export default class Modal extends PureComponent {
       <Portal>
         <Transition
           native
-          config={{
-            tension: 280,
-            friction: 60,
-          }}
+          config={config.gentle}
           from={{ opacity: 0, bgOpacity: 0, y: -50 }}
           enter={{ opacity: 1, bgOpacity: 0.5, y: 0 }}
           leave={{ opacity: 0, bgOpacity: 0, y: 50 }}
